@@ -1,0 +1,225 @@
+/**
+ * CSS Custom Properties (Design Tokens)
+ *
+ * This file is auto-generated from TypeScript token definitions.
+ * Do not edit directly - run `npm run tokens:build` to regenerate.
+ */
+
+:root {
+  /* ===========================================
+     Colors - Primary Palette
+     =========================================== */
+  --color-primary-50: #E6F3FF;
+  --color-primary-100: #CCE7FF;
+  --color-primary-200: #99CFFF;
+  --color-primary-300: #66B7FF;
+  --color-primary-400: #339FFF;
+  --color-primary-500: #0087FF;
+  --color-primary-600: #006CCC;
+  --color-primary-700: #005199;
+  --color-primary-800: #003666;
+  --color-primary-900: #001B33;
+
+  /* Colors - Secondary Palette */
+  --color-secondary-50: #FFF0ED;
+  --color-secondary-100: #FFE1DB;
+  --color-secondary-200: #FFC3B7;
+  --color-secondary-300: #FFA593;
+  --color-secondary-400: #FF876F;
+  --color-secondary-500: #FF694B;
+  --color-secondary-600: #CC543C;
+  --color-secondary-700: #993F2D;
+  --color-secondary-800: #662A1E;
+  --color-secondary-900: #33150F;
+
+  /* Colors - Neutral Palette */
+  --color-neutral-0: #FFFFFF;
+  --color-neutral-50: #F9FAFB;
+  --color-neutral-100: #F3F4F6;
+  --color-neutral-200: #E5E7EB;
+  --color-neutral-300: #D1D5DB;
+  --color-neutral-400: #9CA3AF;
+  --color-neutral-500: #6B7280;
+  --color-neutral-600: #4B5563;
+  --color-neutral-700: #374151;
+  --color-neutral-800: #1F2937;
+  --color-neutral-900: #111827;
+  --color-neutral-1000: #000000;
+
+  /* Colors - Semantic */
+  --color-success-light: #D1FAE5;
+  --color-success-base: #10B981;
+  --color-success-dark: #065F46;
+
+  --color-warning-light: #FEF3C7;
+  --color-warning-base: #F59E0B;
+  --color-warning-dark: #92400E;
+
+  --color-error-light: #FEE2E2;
+  --color-error-base: #EF4444;
+  --color-error-dark: #991B1B;
+
+  --color-info-light: #DBEAFE;
+  --color-info-base: #3B82F6;
+  --color-info-dark: #1E40AF;
+
+  /* ===========================================
+     Spacing
+     =========================================== */
+  --spacing-0: 0px;
+  --spacing-px: 1px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-3-5: 14px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-10: 40px;
+  --spacing-11: 44px;
+  --spacing-12: 48px;
+  --spacing-14: 56px;
+  --spacing-16: 64px;
+  --spacing-20: 80px;
+  --spacing-24: 96px;
+  --spacing-28: 112px;
+  --spacing-32: 128px;
+
+  /* Spacing - Semantic */
+  --spacing-none: var(--spacing-0);
+  --spacing-xs: var(--spacing-1);
+  --spacing-sm: var(--spacing-2);
+  --spacing-md: var(--spacing-4);
+  --spacing-lg: var(--spacing-6);
+  --spacing-xl: var(--spacing-8);
+  --spacing-2xl: var(--spacing-12);
+  --spacing-3xl: var(--spacing-16);
+  --spacing-4xl: var(--spacing-24);
+
+  /* ===========================================
+     Typography
+     =========================================== */
+  --font-family-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-serif: "Merriweather", Georgia, "Times New Roman", serif;
+  --font-family-mono: "JetBrains Mono", "Fira Code", Consolas, monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  --line-height-none: 1;
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --line-height-loose: 2;
+
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+
+  /* ===========================================
+     Border Radius
+     =========================================== */
+  --radius-none: 0;
+  --radius-sm: 0.125rem;
+  --radius-base: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* ===========================================
+     Shadows
+     =========================================== */
+  --shadow-none: none;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-base: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+
+  /* ===========================================
+     Transitions
+     =========================================== */
+  --duration-fast: 150ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+  --duration-slower: 500ms;
+
+  --timing-ease: ease;
+  --timing-ease-in: ease-in;
+  --timing-ease-out: ease-out;
+  --timing-ease-in-out: ease-in-out;
+  --timing-linear: linear;
+
+  /* ===========================================
+     Z-Index
+     =========================================== */
+  --z-hide: -1;
+  --z-base: 0;
+  --z-docked: 10;
+  --z-dropdown: 1000;
+  --z-sticky: 1100;
+  --z-banner: 1200;
+  --z-overlay: 1300;
+  --z-modal: 1400;
+  --z-popover: 1500;
+  --z-toast: 1700;
+  --z-tooltip: 1800;
+
+  /* ===========================================
+     Breakpoints (for reference, use in media queries)
+     =========================================== */
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+/* Dark mode overrides */
+[data-theme="dark"] {
+  --color-neutral-0: #111827;
+  --color-neutral-50: #1F2937;
+  --color-neutral-100: #374151;
+  --color-neutral-200: #4B5563;
+  --color-neutral-300: #6B7280;
+  --color-neutral-400: #9CA3AF;
+  --color-neutral-500: #D1D5DB;
+  --color-neutral-600: #E5E7EB;
+  --color-neutral-700: #F3F4F6;
+  --color-neutral-800: #F9FAFB;
+  --color-neutral-900: #FFFFFF;
+  --color-neutral-1000: #FFFFFF;
+}
