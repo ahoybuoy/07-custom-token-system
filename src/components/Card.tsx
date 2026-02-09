@@ -18,10 +18,14 @@ export const Card: React.FC<CardProps> = ({
   onClick,
   className,
 }) => {
-  const padding = componentSpacing.card.padding[size];
+  const paddingMap = {
+    sm: '12px',
+    md: '24px',
+    lg: '32px',
+  };
 
   const baseStyle: React.CSSProperties = {
-    padding,
+    padding: paddingMap[size],
     borderRadius: borderRadius.lg,
     transition: 'all 200ms ease',
     cursor: interactive ? 'pointer' : 'default',
@@ -57,7 +61,7 @@ export const Card: React.FC<CardProps> = ({
 };
 
 export const CardHeader: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <div style={{ marginBottom: componentSpacing.card.gap }}>{children}</div>
+  <div style={{ marginBottom: '16px' }}>{children}</div>
 );
 
 export const CardBody: React.FC<{ children: React.ReactNode }> = ({ children }) => (
@@ -65,7 +69,7 @@ export const CardBody: React.FC<{ children: React.ReactNode }> = ({ children }) 
 );
 
 export const CardFooter: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <div style={{ marginTop: componentSpacing.card.gap, display: 'flex', gap: '8px' }}>
+  <div style={{ marginTop: '16px', display: 'flex', gap: '8px' }}>
     {children}
   </div>
 );
