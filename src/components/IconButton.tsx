@@ -3,7 +3,7 @@ import { colors, borderRadius, shadows, transitions } from '../../tokens';
 
 export interface IconButtonProps {
   icon: React.ReactNode;
-  variant?: 'solid' | 'outline' | 'ghost';
+  variant?: 'solid' | 'outline' | 'ghost' | 'elevated' | 'link';
   color?: 'primary' | 'secondary' | 'neutral' | 'danger';
   size?: 'xs' | 'sm' | 'md' | 'lg';
   isRound?: boolean;
@@ -60,6 +60,20 @@ export const IconButton: React.FC<IconButtonProps> = ({
           backgroundColor: 'transparent',
           color: colorStyle.base,
           border: 'none',
+        };
+      case 'elevated':
+        return {
+          backgroundColor: colors.neutral[0],
+          color: colorStyle.base,
+          border: 'none',
+          boxShadow: shadows.md,
+        };
+      case 'link':
+        return {
+          backgroundColor: 'transparent',
+          color: colorStyle.base,
+          border: 'none',
+          textDecoration: 'underline',
         };
       default:
         return {};
