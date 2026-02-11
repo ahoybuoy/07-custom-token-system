@@ -10,7 +10,7 @@ export function TestDrift() {
         border: '1px solid #30363d',
       }}
     >
-      <div className="flex items-center gap-[10px] mb-[14px]">
+      <div className="flex items-center gap-2.5 mb-[14px]">
         <div
           className="w-[36px] h-[36px] rounded-full bg-[#ff0000]"
           style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
