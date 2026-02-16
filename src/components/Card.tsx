@@ -39,9 +39,10 @@ export const Card: React.FC<CardProps> = ({
       border: `1px solid ${colors.neutral[200]}`,
     },
     filled: {
-      backgroundColor: colors.neutral[50],
+      backgroundColor: '#0087FF',
       boxShadow: 'none',
       border: 'none',
+      color: '#EF4444',
     },
   };
 
